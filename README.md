@@ -32,8 +32,9 @@ In order to replay, right click session then Replay > Reissue from composer, the
 - Microsoft.AspNet.WebApi.Owin - for test project only to support self hosting web api
 
 ##### Other notes
-1. Spent 1.5hrs to do the core of tests and implementation. Refactoring, restructuring, adding help files, documentation, and submitting is excluded from this. 
-2. What could have been done given more time:
+Spent 1.5hrs to do the core of tests and implementation. Refactoring, restructuring, adding help files, documentation, and submitting is excluded from this. 
+
+What could have been done given more time:
 - Persistance store. Although requested in the original task, I did not get enough time to finish the persistance. Started adding the persistence store using SQLite. Would need more time to finish. 
 - Hypermedia implementation: Based on RMM the API is not considered RESTful without hypermedia. e.g. Could return links to how to delete/update a transaction with every transaction returned from the API.
 - Etags for caching.
